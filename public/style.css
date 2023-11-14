@@ -1,0 +1,61 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('img.jpg') center/cover no-repeat; /* Change 'your-background-image.jpg' to your image path */
+  background-attachment: fixed; /* Fixed background for better scrolling effect */
+  opacity: 0.9; /* Reduced opacity for the background */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.7); /* Reduced opacity for the container */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px; /* Add margin for better visual separation */
+}
+
+h1 {
+  color: #4285f4;
+}
+
+.chat-box {
+  background-color: #fff;
+  border-radius: 10px; /* Increased border radius for a card-like appearance */
+  overflow: hidden;
+  width: 300px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for the card */
+}
+
+#messages {
+  padding: 10px;
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.input-container {
+  display: flex;
+  padding: 10px;
+}
+
+input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-right: 8px;
+}
+
+button {
+  background-color: #4285f4;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  cursor: pointer;
+}
